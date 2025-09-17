@@ -1,208 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FC Barcelona Team Information</title>
+    <meta charset="UTF-8" />
+    <title>Football Team 2025 - Squad & Schedule</title>
     <style>
-        
-        h1, h2, h3, h4 {
-            text-align: center;
-        }
-    
         body {
-            background-color: white; 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #eef2f7;
+            color: #222;
+            margin: 0;
+            padding: 0 15px 40px;
         }
-
-     
-        .highlight {
-            background-color: yellow;
-            font-weight: bold;
+        header {
+            background-color: #004080;
+            color: white;
+            padding: 25px 15px;
+            text-align: center;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
         }
-        .team-section, .schedule-section, .player-profile-section {
-            border: none;
-            margin: 10px;
-            padding: 10px;
+        header h1 {
+            margin: 0;
+            font-weight: 700;
+            font-size: 2.5rem;
         }
-        .player-name {
-            font-style: italic;
-            color: green;
+        header p {
+            margin-top: 6px;
+            font-size: 1.1rem;
+            font-weight: 400;
+            color: #cce0ff;
         }
-
-        
-        h1 {
-            background-color: red;
+        section {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin: 25px auto;
+            max-width: 980px;
+            padding: 25px 25px 30px;
+        }
+        h2 {
+            color: #0059b3;
+            margin-bottom: 14px;
+            border-bottom: 3px solid #0099ff;
+            padding-bottom: 8px;
+            font-size: 1.8rem;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 22px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            text-align: left;
+            padding: 12px 15px;
+        }
+        th {
+            background-color: #cce6ff;
+            font-weight: 600;
+            font-size: 1rem;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 25px;
+            font-size: 1rem;
+            color: #444;
+            margin-top: 0;
+        }
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            color: #666;
+            font-size: 0.9rem;
+        }
+        /* Responsive */
+        @media (max-width: 660px) {
+            body {
+                padding: 0 8px 30px;
+            }
+            section {
+                margin: 15px;
+                padding: 20px;
+            }
+            header h1 {
+                font-size: 1.8rem;
+            }
+            header p {
+                font-size: 1rem;
+            }
+            h2 {
+                font-size: 1.5rem;
+            }
+        }
     </style>
 </head>
 <body>
-    <h1>FC Barcelona Team Roster - 2024/2025 Season</h1>
+    <header>
+        <h1>2025 Football Team</h1>
+        <p>Team Members, Roles, Match Schedule & Player Statistics</p>
+    </header>
 
-
-    <div class="team-section">
-        <h2>Team Members</h2>
-        <table border="1">
+    <section>
+        <h2>Team Members and Roles</h2>
+        <table>
             <thead>
                 <tr>
-                    <th>Jersey No.</th>
                     <th>Name</th>
                     <th>Position</th>
-                    <th>Role</th>
-                    <th>Image</th>
+                    <th>Jersey Number</th>
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>1</td>
-                    <td><span class="player-name">Marc-André ter Stegen</span></td>
-                    <td>Goalkeeper</td>
-                    <td><span class="highlight">Captain</span></td>
-                    <td><a href="https://players.fcbarcelona.com/en/player/1-ter-stegen/bio" target="_blank"><img src="https://assets.fcbarcelona.com/images/image-service/v1/image/upload/f_auto,q_auto,dpr_2,w_240/marc-andre-ter-stegen" alt="Marc-André ter Stegen" width="50"></a></td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td><span class="player-name">Pau Cubarsí</span></td>
-                    <td>Defender</td>
-                    <td>Player</td>
-                    <td><a href="https://players.fcbarcelona.com/en/player/50-pau-cubarsi/bio" target="_blank"><img src="https://assets.fcbarcelona.com/images/image-service/v1/image/upload/f_auto,q_auto,dpr_2,w_240/pau-cubarsi" alt="Pau Cubarsí" width="50"></a></td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td><span class="player-name">Alejandro Balde</span></td>
-                    <td>Defender</td>
-                    <td>Player</td>
-                    <td><a href="https://players.fcbarcelona.com/en/player/28-alejandro-balde/bio" target="_blank"><img src="https://assets.fcbarcelona.com/images/image-service/v1/image/upload/f_auto,q_auto,dpr_2,w_240/alejandro-balde" alt="Alejandro Balde" width="50"></a></td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td><span class="player-name">Ronald Araújo</span></td>
-                    <td>Defender</td>
-                    <td><span class="highlight">Vice-Captain</span></td>
-                    <td><a href="https://players.fcbarcelona.com/en/player/4-ronald-araujo/bio" target="_blank"><img src="https://assets.fcbarcelona.com/images/image-service/v1/image/upload/f_auto,q_auto,dpr_2,w_240/ronald-araujo" alt="Ronald Araújo" width="50"></a></td>
-                </tr>
-                <tr>
-                    <td>5</td>
-                    <td><span class="player-name">Iñigo Martínez</span></td>
-                    <td>Defender</td>
-                    <td>Player</td>
-                    <td><a href="https://players.fcbarcelona.com/en/player/5-inigo-martinez/bio" target="_blank"><img src="https://assets.fcbarcelona.com/images/image-service/v1/image/upload/f_auto,q_auto,dpr_2,w_240/inigo-martinez" alt="Iñigo Martínez" width="50"></a></td>
-                </tr>
-                <tr>
-                    <td>6</td>
-                    <td><span class="player-name">Gavi</span></td>
-                    <td>Midfielder</td>
-                    <td>Player</td>
-                    <td><a href="https://players.fcbarcelona.com/en/player/30-gavi/bio" target="_blank"><img src="https://assets.fcbarcelona.com/images/image-service/v1/image/upload/f_auto,q_auto,dpr_2,w_240/gavi" alt="Gavi" width="50"></a></td>
-                </tr>
-                <tr>
-                    <td>7</td>
-                    <td><span class="player-name">Ferran Torres</span></td>
-                    <td>Forward</td>
-                    <td>Player</td>
-                    <td><a href="https://players.fcbarcelona.com/en/player/11-ferran-torres/bio" target="_blank"><img src="https://assets.fcbarcelona.com/images/image-service/v1/image/upload/f_auto,q_auto,dpr_2,w_240/ferran-torres" alt="Ferran Torres" width="50"></a></td>
-                </tr>
-                <tr>
-                    <td>8</td>
-                    <td><span class="player-name">Pedri</span></td>
-                    <td>Midfielder</td>
-                    <td>Player</td>
-                    <td><a href="https://players.fcbarcelona.com/en/player/16-pedri/bio" target="_blank"><img src="https://assets.fcbarcelona.com/images/image-service/v1/image/upload/f_auto,q_auto,dpr_2,w_240/pedri" alt="Pedri" width="50"></a></td>
-                </tr>
-               
+                <tr><td>John Smith</td><td>Goalkeeper</td><td>1</td></tr>
+                <tr><td>Michael Brown</td><td>Defender</td><td>4</td></tr>
+                <tr><td>David Johnson</td><td>Defender</td><td>5</td></tr>
+                <tr><td>Chris Evans</td><td>Midfielder</td><td>8</td></tr>
+                <tr><td>Alex Turner</td><td>Midfielder</td><td>10</td></tr>
+                <tr><td>Kevin White</td><td>Forward</td><td>9</td></tr>
+                <tr><td>Samuel Green</td><td>Forward</td><td>11</td></tr>
+                <tr><td>Mark Wilson</td><td>Defender</td><td>3</td></tr>
+                <tr><td>James Lee</td><td>Midfielder</td><td>7</td></tr>
+                <tr><td>Ryan Clark</td><td>Goalkeeper</td><td>13</td></tr>
+                <tr><td>Daniel Parker</td><td>Forward</td><td>20</td></tr>
             </tbody>
         </table>
-    </div>
+    </section>
 
- 
-    <div class="schedule-section">
-        <h2>Match Schedule (Upcoming - La Liga 2025/26 Season)</h2>
-        <table border="1">
+    <section>
+        <h2>Match Schedule 2025</h2>
+        <ul>
+            <li><strong>March 10, 2025:</strong> vs Titans FC - Home Stadium</li>
+            <li><strong>March 24, 2025:</strong> vs River City Rangers - Away</li>
+            <li><strong>April 7, 2025:</strong> vs Mountain Eagles - Home</li>
+            <li><strong>April 21, 2025:</strong> vs Coastal Warriors - Away</li>
+            <li><strong>May 5, 2025:</strong> vs Valley Kings - Home</li>
+            <li><strong>May 19, 2025:</strong> vs Capital Chargers - Away</li>
+            <li><strong>June 2, 2025:</strong> vs Highland Spartans - Home</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Player Profiles and Statistics</h2>
+        <table>
             <thead>
                 <tr>
-                    <th>Date</th>
-                    <th>Home Team</th>
-                    <th>Away Team</th>
-                    <th>Venue</th>
+                    <th>Name</th>
+                    <th>Matches Played</th>
+                    <th>Goals</th>
+                    <th>Assists</th>
+                    <th>Clean Sheets</th>
+                    <th>Yellow Cards</th>
+                    <th>Red Cards</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>August 16, 2025</td>
-                    <td>RCD Mallorca</td>
-                    <td>FC Barcelona</td>
-                    <td>Estadi Mallorca Son Moix</td>
+                    <td>John Smith</td><td>25</td><td>0</td><td>0</td><td>12</td><td>2</td><td>0</td>
                 </tr>
                 <tr>
-                    <td>August 24, 2025</td>
-                    <td>Levante UD</td>
-                    <td>FC Barcelona</td>
-                    <td>Estadio Ciudad de Valencia</td>
+                    <td>Michael Brown</td><td>28</td><td>2</td><td>3</td><td>10</td><td>4</td><td>1</td>
                 </tr>
                 <tr>
-                    <td>September 1, 2025</td>
-                    <td>Rayo Vallecano</td>
-                    <td>FC Barcelona</td>
-                    <td>Estadio de Vallecas</td>
+                    <td>David Johnson</td><td>27</td><td>1</td><td>4</td><td>11</td><td>3</td><td>0</td>
                 </tr>
                 <tr>
-                    <td>September 14, 2025</td>
-                    <td>FC Barcelona</td>
-                    <td>Valencia CF</td>
-                    <td>Spotify Camp Nou</td>
+                    <td>Chris Evans</td><td>30</td><td>5</td><td>9</td><td>-</td><td>5</td><td>0</td>
                 </tr>
                 <tr>
-                    <td>September 21, 2025</td>
-                    <td>FC Barcelona</td>
-                    <td>Getafe CF</td>
-                    <td>Spotify Camp Nou</td>
+                    <td>Alex Turner</td><td>29</td><td>7</td><td>11</td><td>-</td><td>2</td><td>0</td>
                 </tr>
                 <tr>
-                    <td>September 24, 2025</td>
-                    <td>Real Oviedo</td>
-                    <td>FC Barcelona</td>
-                    <td>Carlos Tartiere Stadium</td>
+                    <td>Kevin White</td><td>31</td><td>18</td><td>6</td><td>-</td><td>3</td><td>1</td>
+                </tr>
+                <tr>
+                    <td>Samuel Green</td><td>20</td><td>12</td><td>4</td><td>-</td><td>1</td><td>0</td>
+                </tr>
+                <tr>
+                    <td>Mark Wilson</td><td>26</td><td>0</td><td>2</td><td>9</td><td>2</td><td>0</td>
+                </tr>
+                <tr>
+                    <td>James Lee</td><td>27</td><td>4</td><td>7</td><td>-</td><td>3</td><td>0</td>
+                </tr>
+                <tr>
+                    <td>Ryan Clark</td><td>10</td><td>0</td><td>0</td><td>4</td><td>0</td><td>0</td>
+                </tr>
+                <tr>
+                    <td>Daniel Parker</td><td>18</td><td>9</td><td>3</td><td>-</td><td>1</td><td>0</td>
                 </tr>
             </tbody>
         </table>
-        <p>For the complete match schedule, please visit the {Link: official FC Barcelona website https://www.fcbarcelona.com/en/club/club-schedule}.</p>
-    </div>
+    </section>
 
-    
-    <div class="player-profile-section">
-        <h2>Player Profiles and Statistics</h2>
-        <p>Below are links to detailed profiles and statistics for some of FC Barcelona's key players. Click on a player's name to view their profile and detailed statistics.</p>
-
-        <h3>Players by Position:</h3>
-        <ul>
-            <li>Goalkeepers
-                <ul>
-                    <li>Marc-André ter Stegen: View his {Link: profile and statistics on EA Sports FC™ 25 https://www.ea.com/games/ea-sports-fc/ratings/teams-ratings/fc-barcelona/241} or {Link: LALIGA https://www.laliga.com/en-GB/clubs/fc-barcelona/squad}.</li>
-                </ul>
-            </li>
-            <li>Defenders
-                <ul>
-                    <li>Pau Cubarsí: Discover his {Link: stats on The New York Times https://www.nytimes.com/athletic/football/team/fc-barcelona/stats/} or on {Link: LALIGA https://www.laliga.com/en-GB/clubs/fc-barcelona/squad}.</li>
-                    <li>Alejandro Balde: Find his {Link: stats on The New York Times https://www.nytimes.com/athletic/football/team/fc-barcelona/stats/} or on {Link: LALIGA https://www.laliga.com/en-GB/clubs/fc-barcelona/squad}.</li>
-                    <li>Ronald Araújo: Examine his {Link: profile and statistics on EA Sports FC™ 25 https://www.ea.com/games/ea-sports-fc/ratings/teams-ratings/fc-barcelona/241} or {Link: LALIGA https://www.laliga.com/en-GB/clubs/fc-barcelona/squad}.</li>
-                </ul>
-            </li>
-            <li>**Midfielders**
-                <ul>
-                    <li>Pedri: Find his {Link: stats on The New York Times https://www.nytimes.com/athletic/football/team/fc-barcelona/stats/} or delve into his goals and assists on {Link: FotMob https://www.fotmob.com/leagues/87/stats/season/23686/players/_goals_and_goal_assist/team/8634/barcelona}.</li>
-                    <li>Gavi:See his {Link: profile and statistics on EA Sports FC™ 25 https://www.ea.com/games/ea-sports-fc/ratings/teams-ratings/fc-barcelona/241} or {Link: FotMob https://www.fotmob.com/leagues/87/stats/season/23686/players/_goals_and_goal_assist/team/8634/barcelona}.</li>
-                    <li>Frenkie de Jong: View his {Link: profile and statistics on EA Sports FC™ 25 https://www.ea.com/games/ea-sports-fc/ratings/teams-ratings/fc-barcelona/241} or {Link: LALIGA https://www.laliga.com/en-GB/clubs/fc-barcelona/squad}.</li>
-                </ul>
-            </li>
-            <li>Forwards
-                <ul>
-                    <li>Robert Lewandowski: Explore his {Link: statistics on The New York Times https://www.nytimes.com/athletic/football/team/fc-barcelona/stats/} or see his goals and assists on {Link: FotMob https://www.fotmob.com/leagues/87/stats/season/23686/players/_goals_and_goal_assist/team/8634/barcelona}.</li>
-                    <li>Raphinha: Check out his {Link: stats on The New York Times https://www.nytimes.com/athletic/football/team/fc-barcelona/stats/} or explore his goals and assists on {Link: FotMob https://www.fotmob.com/leagues/87/stats/season/23686/players/_goals_and_goal_assist/team/8634/barcelona}.</li>
-                    <li>Lamine Yamal: Check out his {Link: stats on The New York Times https://www.nytimes.com/athletic/football/team/fc-barcelona/stats/} or on {Link: FotMob https://www.fotmob.com/leagues/87/stats/season/23686/players/_goals_and_goal_assist/team/8634/barcelona}.</li>
-                    <li>Ferran Torres:Check out his {Link: stats on The New York Times https://www.nytimes.com/athletic/football/team/fc-barcelona/stats/} or on {Link: FotMob https://www.fotmob.com/leagues/87/stats/season/23686/players/_goals_and_goal_assist/team/8634/barcelona}.</li>
-                </ul>
-            </li>
-        </ul>
-        <p>For more player profiles and in-depth statistics, you can visit the {Link: FC Barcelona Players section https://players.fcbarcelona.com/en} on the official website or {Link: ESPN's FC Barcelona squad page https://www.espn.in/football/team/squad/_/id/83/esp.barcelona}.</p>
-    </div>
-
+    <footer>
+        <p>&copy; 2025 Football Team | All data fictional and for demo purposes</p>
+    </footer>
 </body>
 </html>
